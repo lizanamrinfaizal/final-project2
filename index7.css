@@ -1,0 +1,642 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#buttonContainer a {
+    color: black;
+    text-decoration: none; /* Removes the underline */
+  }
+  
+  #buttonContainer a:hover {
+    color: #ccc; /* Optional: Change color when hovering */
+  }
+
+
+.logo-vector-icon {
+    width: 65.4px;
+    position: relative;
+    height: 22.9px;
+}
+.logo1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.icon32pxsearch {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.search {
+    position: relative;
+    line-height: 18px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+.search-field {
+    width: 372px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+.home {
+    position: relative;
+    font-weight: 500;
+}
+.about {
+    position: relative;
+    font-weight: 500;
+    opacity: 0.3;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 52px;
+    font-size: 16px;
+    color: #000;
+}
+.icon32pxfavorites {
+    width: 32px;
+    position: relative;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.icon32pxcart {
+    width: 32px;
+    position: relative;
+    height: 32px;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.header-top {
+    align-self: stretch;
+    background-color: #fff;
+    border-bottom: 1px solid #b5b5b5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 160px;
+}
+.icon24pxlocation {
+    width: 24px;
+    position: relative;
+    border-radius: 21px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.address {
+    align-self: stretch;
+    position: relative;
+    font-size: 19px;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+    font-weight: 500;
+}
+.text {
+    width: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.step-1 {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.icon24pxshipping {
+    width: 24px;
+    position: relative;
+    border-radius: 18px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.step-31 {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    color: #000;
+}
+.steps {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 72px 160px;
+    color: #b2b2b2;
+}
+.summary {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 16px;
+    font-weight: 500;
+}
+.product-image-icon {
+    width: 40px;
+    position: relative;
+    height: 40px;
+    object-fit: cover;
+}
+.apple-iphone-14 {
+    align-self: stretch;
+    width: 319px;
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.b {
+    position: relative;
+    line-height: 24px;
+    text-align: right;
+}
+.text3 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 24px 0px 0px;
+}
+.added-product {
+    align-self: stretch;
+    border-radius: 13px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px 0px 16px 16px;
+    gap: 16px;
+}
+.selected-products {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 16px;
+}
+.dusty-townline-jacksonville {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+}
+.field {
+    align-self: stretch;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 0px;
+    font-size: 16px;
+    color: #000;
+}
+.titlefield {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.shipment-method {
+    align-self: stretch;
+    position: relative;
+    line-height: 16px;
+    font-weight: 500;
+}
+.field1 {
+    align-self: stretch;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #000;
+}
+.shipment-info {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.subtotal1 {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+    font-weight: 500;
+}
+.div {
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+    font-weight: 500;
+}
+.subtotal {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.estimated-tax {
+    flex: 1;
+    position: relative;
+    line-height: 32px;
+}
+.div1 {
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+    font-weight: 500;
+    color: #000;
+}
+.price {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.estimated-shipping {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+}
+.taxes {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    color: #545454;
+}
+.b3 {
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+}
+.price-info {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 16px;
+    color: #000;
+}
+.details {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 14px;
+    color: #545454;
+}
+.left-side {
+    flex: 0.9023;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 32px 24px;
+    gap: 24px;
+}
+.payment1 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 16px;
+}
+.credit-card {
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 16px;
+    font-weight: 500;
+}
+.selected {
+    border-bottom: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px;
+    color: #000;
+}
+.tabstab {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 56px;
+    font-size: 14px;
+    color: #717171;
+}
+.top {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.image-65-icon {
+    width: 337px;
+    position: relative;
+    height: 190px;
+    object-fit: cover;
+}
+.cvv {
+    flex: 1;
+    position: relative;
+    line-height: 16px;
+}
+.field2 {
+    align-self: stretch;
+    border-radius: 7px;
+    background-color: #fff;
+    border: 0.5px solid #cecece;
+    box-sizing: border-box;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 16px;
+}
+.field4 {
+    flex: 1;
+    border-radius: 7px;
+    background-color: #fff;
+    border: 0.5px solid #cecece;
+    box-sizing: border-box;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 16px;
+}
+.fields1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.frame-427319392pager {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    font-size: 14px;
+    color: #979797;
+}
+.payment-details {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.done-round-child {
+    width: 4.3px;
+    position: relative;
+    height: 3.7px;
+    object-fit: contain;
+}
+.done-round {
+    border-radius: 3px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 6px;
+}
+.apple-110 {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+}
+.checbox-field {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 15px;
+}
+.label {
+    position: relative;
+    line-height: 16px;
+    font-weight: 500;
+}
+.button {
+    flex: 1;
+    border-radius: 6px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 86px;
+    cursor: pointer;
+}
+.button1 {
+    flex: 1;
+    border-radius: 6px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 86px;
+    color: #fff;
+}
+.buttons {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 23px;
+    text-align: center;
+    font-size: 16px;
+}
+.right-side {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px 160px 72px;
+    gap: 96px;
+    font-size: 20px;
+    color: #000;
+}
+.logo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.we-are-a {
+    width: 384px;
+    position: relative;
+    line-height: 170.5%;
+    font-weight: 500;
+    display: inline-block;
+}
+.logotext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.services {
+    position: relative;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.bonus-program {
+    align-self: stretch;
+    position: relative;
+    line-height: 32px;
+}
+.section {
+    width: 295.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.footer-navigation {
+    width: 623px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.info {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.icon16pxtwitter {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.social-icons {
+    width: 173px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer {
+    align-self: stretch;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 104px 160px;
+    gap: 24px;
+    color: #cfcfcf;
+}
+.step-3 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 14px;
+    color: #656565;
+    font-family: Inter;
+}
+

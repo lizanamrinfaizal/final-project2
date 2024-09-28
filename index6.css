@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#buttonContainer1 a {
+    color: white;
+    text-decoration: none; /* Removes the underline */
+  }
+  
+  #buttonContainer1 a:hover {
+    color: #ccc; /* Optional: Change color when hovering */
+  }
+  
+  #buttonContainer a {
+    color: black;
+    text-decoration: none; /* Removes the underline */
+  }
+  
+  #buttonContainer a:hover {
+    color: #ccc; /* Optional: Change color when hovering */
+  }
+  
+
+
+.logo-vector-icon {
+    width: 65.4px;
+    position: relative;
+    height: 22.9px;
+}
+.logo1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.icon32pxsearch {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.search {
+    position: relative;
+    line-height: 18px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+.search-field {
+    width: 372px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+.home {
+    position: relative;
+    font-weight: 500;
+}
+.about {
+    position: relative;
+    font-weight: 500;
+    opacity: 0.3;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 52px;
+    font-size: 16px;
+    color: #000;
+}
+.icon32pxfavorites {
+    width: 32px;
+    position: relative;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.icon32pxcart {
+    width: 32px;
+    position: relative;
+    height: 32px;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.header-top {
+    align-self: stretch;
+    background-color: #fff;
+    border-bottom: 1px solid #b5b5b5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 160px;
+}
+.icon24pxlocation {
+    width: 24px;
+    position: relative;
+    border-radius: 21px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.step-11 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 16px;
+    font-weight: 500;
+}
+.address {
+    align-self: stretch;
+    position: relative;
+    font-size: 19px;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+    font-weight: 500;
+}
+.text {
+    width: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.step-1 {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.icon24pxshipping {
+    width: 24px;
+    position: relative;
+    border-radius: 18px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.step-5 {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    color: #000;
+}
+.steps {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 72px 160px;
+    color: #b2b2b2;
+}
+.shipping-method {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+}
+.redio-icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.div {
+    position: relative;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.redio-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.expires-112020 {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    color: #17183b;
+}
+.text3 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.div1 {
+    position: relative;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #17183b;
+}
+.method {
+    align-self: stretch;
+    border-radius: 11px;
+    background-color: #fff;
+    border: 1px solid #d1d1d8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    color: #000;
+}
+.expires-1120201 {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+}
+.method1 {
+    align-self: stretch;
+    border-radius: 11px;
+    background-color: #fff;
+    border: 1px solid #d1d1d8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+.methodproduct-cardicon16px {
+    width: 16px;
+    position: relative;
+    height: 16px;
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4px;
+}
+.methodsradiogroup {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 16px;
+    color: #a2a3b1;
+}
+.block {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+}
+.label {
+    position: relative;
+    line-height: 16px;
+    font-weight: 500;
+}
+.button {
+    border-radius: 6px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 86px;
+    cursor: pointer;
+}
+.button1 {
+    border-radius: 6px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 86px;
+    cursor: pointer;
+    color: #fff;
+}
+.buttons {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 23px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+}
+.block-parent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.content {
+    align-self: stretch;
+    height: 688px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 48px 160px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #17183b;
+}
+.logo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.we-are-a {
+    width: 384px;
+    position: relative;
+    line-height: 170.5%;
+    font-weight: 500;
+    display: inline-block;
+}
+.logotext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.services {
+    position: relative;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.bonus-program {
+    align-self: stretch;
+    position: relative;
+    line-height: 32px;
+}
+.section {
+    width: 295.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.footer-navigation {
+    width: 623px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.info {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.icon16pxtwitter {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.social-icons {
+    width: 173px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer {
+    align-self: stretch;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 104px 160px;
+    gap: 24px;
+    color: #cfcfcf;
+}
+.step-2 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 14px;
+    color: #656565;
+    font-family: Inter;
+}
+

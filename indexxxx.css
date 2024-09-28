@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#buttonContainer a {
+    color: white;
+    text-decoration: none; /* This removes the underline */
+  }
+  
+  #buttonContainer a:hover {
+    color: #ccc; /* Optional: A slightly different color when hovering */
+  }
+  
+.logo-vector-icon {
+    width: 65.4px;
+    position: relative;
+    height: 22.9px;
+}
+.logo1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.icon32pxsearch {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.search {
+    position: relative;
+    line-height: 18px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+.search-field {
+    width: 372px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+.home {
+    position: relative;
+    font-weight: 500;
+}
+.about {
+    position: relative;
+    font-weight: 500;
+    opacity: 0.3;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 52px;
+    font-size: 16px;
+    color: #000;
+}
+.icon32pxfavorites {
+    width: 32px;
+    position: relative;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.icon32pxcart {
+    width: 32px;
+    position: relative;
+    height: 32px;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.header-top {
+    align-self: stretch;
+    background-color: #fff;
+    border-bottom: 1px solid #b5b5b5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 160px;
+}
+.shopping-cart2 {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+}
+.product-image-icon {
+    width: 90px;
+    position: relative;
+    height: 90px;
+    object-fit: cover;
+}
+.apple-iphone-14 {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+}
+.div {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+}
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    min-width: 106px;
+}
+.icon24pxno-edit {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.div1 {
+    position: relative;
+    line-height: 16px;
+    font-weight: 500;
+}
+.number {
+    border-radius: 4px;
+    border: 0.5px solid #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+}
+.counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.div2 {
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+    font-weight: 500;
+    white-space: pre-wrap;
+    text-align: left;
+}
+.right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+    text-align: center;
+}
+.content1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 8px 0px;
+}
+.cart-product {
+    align-self: stretch;
+    border-bottom: 0.5px solid #a3a3a3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px 0px 32px;
+    gap: 15px;
+}
+.div5 {
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+    font-weight: 500;
+    text-align: left;
+}
+.cart-product2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px 0px;
+    gap: 15px;
+}
+.products {
+    align-self: stretch;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    font-size: 16px;
+}
+.left-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.order-summary {
+    align-self: stretch;
+    position: relative;
+    line-height: 16px;
+}
+.your-bonus-card {
+    align-self: stretch;
+    position: relative;
+    line-height: 16px;
+    font-weight: 500;
+}
+.enter-card-number {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+}
+.field {
+    align-self: stretch;
+    border-radius: 7px;
+    background-color: #fff;
+    border: 0.5px solid #9f9f9f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0px 16px 16px;
+    color: #979797;
+}
+.label-field {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.apply {
+    width: 60.5px;
+    position: relative;
+    line-height: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.button {
+    width: 76.5px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+}
+.field1 {
+    align-self: stretch;
+    border-radius: 7px;
+    background-color: #fff;
+    border: 0.5px solid #9f9f9f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    color: #979797;
+}
+.subtotal1 {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+    font-weight: 500;
+}
+.div9 {
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+    font-weight: 500;
+}
+.subtotal {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.estimated-tax {
+    flex: 1;
+    position: relative;
+    line-height: 32px;
+}
+.div10 {
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+    font-weight: 500;
+    color: #000;
+}
+.price {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.estimated-shipping {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+}
+.taxes {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    color: #545454;
+}
+.prices {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 16px;
+    color: #000;
+}
+.block {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.label {
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+}
+.button1 {
+    align-self: stretch;
+    border-radius: 6px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 56px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+.content4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 48px;
+    font-size: 14px;
+    color: #545454;
+}
+.summary {
+    flex: 0.7575;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 56px 64px;
+    gap: 40px;
+    font-size: 20px;
+    color: #111;
+}
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 48px;
+}
+.shopping-cart1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 112px 160px;
+    font-size: 24px;
+    color: #000;
+}
+.logo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.we-are-a {
+    width: 384px;
+    position: relative;
+    line-height: 170.5%;
+    font-weight: 500;
+    display: inline-block;
+}
+.logotext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.services {
+    position: relative;
+    line-height: 16px;
+    font-weight: 600;
+}
+.bonus-program {
+    align-self: stretch;
+    position: relative;
+    line-height: 32px;
+}
+.bonus-program-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 14px;
+    color: #cfcfcf;
+}
+.section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.footer-navigation {
+    width: 623px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    font-size: 16px;
+    color: #fff;
+}
+.info3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.icon16pxtwitter {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.social-icons {
+    width: 173px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer {
+    align-self: stretch;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 104px 160px;
+    gap: 24px;
+    color: #cfcfcf;
+}
+.shopping-cart {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 14px;
+    color: #656565;
+    font-family: Inter;
+}
+
